@@ -1,0 +1,166 @@
+/* ------ Default CSS ------ */
+
+.pb-55 {
+    padding-bottom: 55px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mb-65 {
+    margin-bottom: 65px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.signup-area {
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 1px -10px 25px rgba(201, 201, 201, 0.25), -1px 10px 25px rgba(147, 147, 147, 0.25);
+}
+
+.signup-area h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 60px;
+    padding-top: 80px;
+}
+
+/* ------ Floating Form ------ */
+
+.form-floating {
+    width: 235px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: inherit;
+    transition: .3s;
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+
+.form-floating label {
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom: 1px solid #1678CB;
+    color: #000;
+}
+
+/* -------- Form Bottom Area -------- */
+
+.next-btn {
+    padding: 15px 20px;
+    background: #1678CB;
+    line-height: 19px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+.signup-bottom p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.login-signup-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1678CB;
+}
+
+.password-label {
+    margin-bottom: 35px;
+}
+
+/* Responsive  CSS */
+
+/* 1366*768 pixels */
+@media (max-width: 1366px) {
+
+    .signup-area h2 {
+        margin-bottom: 40px;
+        padding-top: 60px;
+    }
+
+    .form-control {
+        margin-bottom: 20px;
+    }
+
+    .next-btn {
+        margin-bottom: 30px;
+    }
+
+    .password-label {
+        margin-bottom: 45px;
+    }
+}
+
+/* Mobile Device */
+
+@media (max-width: 576px) {
+
+    .signup-area {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .form-floating {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-floating label {
+        font-size: 12px;
+    }
+
+    .password-label {
+        padding: 0 15px;
+    }
+
+    .linkup {
+        font-size: 12px;
+    }
+
+    .linkup a {
+        display: block;
+        margin-top: 15px;
+    }
+}

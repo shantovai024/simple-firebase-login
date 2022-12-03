@@ -1,0 +1,11 @@
+label {
+    font-size: 12px;
+    color: #7E7E7E;
+    margin-top: 5px;
+    margin-left: -8px;
+    line-height: 15px;
+}
+
+.reset {
+    text-decoration: none;
+}

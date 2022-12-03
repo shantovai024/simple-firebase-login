@@ -1,0 +1,14 @@
+.load-parent {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.load {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
