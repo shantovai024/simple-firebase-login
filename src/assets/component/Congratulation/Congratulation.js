@@ -7,14 +7,11 @@ import './Congratulation.css'
 const Congratulation = () => {
     return (
         <div className='row'>
-
             <div className="col-md-12 text-center ">
-
                 <div className='congrats-parent'>
-
                     <div className="congrats">
-                        <Link to='/'>Home <img src={logo} alt="" /></Link> <br />
-                        <img className='img-fluid' src={congrats} alt="" />
+                        <Link to='/'>Home <img src={logo} alt="logo" /></Link> <br />
+                        <img className='img-fluid' src={congrats} alt="congratulation" />
                     </div>
                 </div>
             </div>

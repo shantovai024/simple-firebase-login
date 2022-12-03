@@ -35,17 +35,14 @@ const ResetPassword = () => {
         }
     };
 
-
-
-
     return (
         <div className='row mt-15'>
             <div className="col-md-7 ">
                 <div className="logo-area">
-                    <Link to='/'> <img src={logo} alt="" /></Link>
+                    <Link to='/'> <img src={logo} alt="logo" /></Link>
                 </div>
                 <div className="people-area">
-                    <img className='img-fluid' src={people} alt="" />
+                    <img className='img-fluid' src={people} alt="people" />
                 </div>
             </div>
             <div className="col-md-5">
@@ -56,7 +53,7 @@ const ResetPassword = () => {
                             <input className='form-control' placeholder='demo' type="email" name='email' id='email' autoComplete="off" ref={emailRef} required />
                             <label htmlFor='lastname' >Write Email Address </label>
                         </div>
-                      
+
                         <button onClick={handleResetPassword} className='next-btn'>Reset</button> <br />
                         {errorMessage}
                     </form>

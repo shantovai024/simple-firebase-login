@@ -41,7 +41,6 @@ const Login = () => {
         console.log(error);
     }
 
-
     let handleLogin = async (event) => {
         event.preventDefault()
 
@@ -49,27 +48,28 @@ const Login = () => {
         let password = event.target.password.value;
         await signInWithEmailAndPassword(email, password);
     }
+
     return (
         <div className='row mt-15'>
             <div className="col-md-7 ">
                 <div className="logo-area">
-                    <Link to='/'> <img src={logo} alt="" /></Link>
+                    <Link to='/'> <img src={logo} alt="logo" /></Link>
                 </div>
                 <div className="people-area">
-                    <img className='img-fluid' src={people} alt="" />
+                    <img className='img-fluid' src={people} alt="people" />
                 </div>
             </div>
             <div className="col-md-5">
                 <div className="signup-area">
-                    <h2 className='text-center'>Log in Form</h2>
+                    <h2 className='text-center'>LogIn Form</h2>
                     <form onSubmit={handleLogin} className='signup-form text-center'>
                         <div className="form-floating">
                             <input className='form-control' placeholder='demo' type="email" name='email' id='email' autoComplete="off" required />
-                            <label htmlFor='lastname' >Write Email Address </label>
+                            <label htmlFor='lastname'>Write Email Address </label>
                         </div>
                         <div className="form-floating">
                             <input className='form-control mb-0' placeholder='demo' type="password" name='password' id='password' autoComplete="off" required />
-                            <label htmlFor='lastname' >Write Password </label>
+                            <label htmlFor='lastname'>Write Password </label>
                         </div>
                         <label className='mb-65'>your password must be 8 character</label> <br />
                         <button className='next-btn'>Login</button> <br />

@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# FireBase Authentication!
 
 Simple SignUP Form [Check it Now](https://github.com/facebook/create-react-app).
 
@@ -11,4 +11,3 @@ Services
 * Loading Spanner
 * React Toastify
 * Responsive for all Devices
-"# simple-firebase-login" 

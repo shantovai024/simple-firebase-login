@@ -22,7 +22,6 @@ const Signup = () => {
         loading
     ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
-
     let errorMessage;
     if (error) {
         errorMessage = <p className='text-danger text-center'>{error?.message}</p>
@@ -52,12 +51,10 @@ const Signup = () => {
 
         if (password.length < 8) {
             alert('Password should me more than 8 characters')
-
         } else {
             if (agree) {
                 createUserWithEmailAndPassword(email, password)
                 toast("Proceed to SignUp")
-
             }
         }
     }
@@ -66,10 +63,10 @@ const Signup = () => {
         <div className='row mt-15'>
             <div className="col-lg-6 ">
                 <div className="logo-area">
-                    <Link to='/'> <img src={logo} alt="" /></Link>
+                    <Link to='/'> <img src={logo} alt="logo" /></Link>
                 </div>
                 <div className="people-area ">
-                    <img className='img-fluid' src={people} alt="" />
+                    <img className='img-fluid' src={people} alt="people" />
                 </div>
             </div>
             <div className="col-lg-6">
